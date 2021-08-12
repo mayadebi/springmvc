@@ -27,6 +27,11 @@
             <artifactId>spring-webmvc</artifactId>
             <version>5.3.9</version>
         </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.60</version>
+        </dependency>
         <!--        上传文件要用的包-->
         <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
         <dependency>
