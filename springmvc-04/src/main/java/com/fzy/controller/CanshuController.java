@@ -31,4 +31,10 @@ public class CanshuController {
         System.out.println(map2.toString());
         return "canshu";
     }
+
+    @RequestMapping("/canshu2")
+    public String canshu2(@RequestParam Map<String,Object> map){
+        System.out.println(map.toString());
+        return "canshu";
+    }
 }
